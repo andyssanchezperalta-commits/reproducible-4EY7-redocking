@@ -1,0 +1,14 @@
+name: neurodock
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - rdkit
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - gemmi
+  - pip
+  - pip:
+      - meeko==0.8.0
